@@ -19,7 +19,7 @@ body {
 
 .sidebar {
   color: white;
-  width: 35%;
+  width: 30%;
   background-color: #003d74;
   display: flex;
   font-family: arimo;
@@ -47,7 +47,7 @@ body {
 .personal-info-ctn .info {
   margin-top: 5%;
   padding-left: 25px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: arimo;
   line-height: 22px;
   font-weight: 800;
@@ -59,4 +59,44 @@ body {
 
 .personal-info-ctn .info .context {
   margin-top: 10px;
+}
+
+.body-ctn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  font-family: arimo;
+  padding-top: 33px;
+  font-size: 13px;
+  padding-right: 3%;
+  width: 64%;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.divider {
+  border-bottom: 1px solid hsla(0, 0%, 46.7%, .15);
+  padding-bottom: 8px;
+}
+
+.s-divider {
+  border-bottom: 1px solid hsla(0, 0%, 46.7%, .15);
+  padding-bottom: 1.5em;
+}
+
+.experience-ctn h3 {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+.company-ctn {
+  display: flex;
+}
+
+.company-date {
+  width: 25%
+}
+
+.company-text {
+  width: 75%
 }
