@@ -41,6 +41,11 @@ body {
 .personal-info-ctn, .education-ctn, .skills-ctn {
   margin-top: 15px;
 }
+
+.skill-ctn {
+  width: 80%;
+  padding-top: 25px;
+}
 .personal-info-ctn .header, .education-ctn .header, .skills-ctn .header {
   font-size: 20px;
   background-color: #002e58;
@@ -124,4 +129,25 @@ body {
 
 .education-ctn .info .college {
   margin-top: 10px;
+}
+
+.p-t-15 {
+  padding-top: 15px
+}
+
+.skill-ctn .progress-bar {
+  margin-top: 5px;
+}
+
+.skill-ctn .progress-bar progress {
+  width: 100%
+}
+
+.skill-ctn .skill-level {
+  float: right
+}
+
+a {
+  color: inherit;
+  text-underline-position: under;
 }
