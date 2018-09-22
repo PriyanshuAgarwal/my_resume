@@ -38,14 +38,16 @@ body {
   margin-bottom: 9px;
 }
 
-.personal-info-ctn .header {
+.personal-info-ctn, .education-ctn, .skills-ctn {
+  margin-top: 15px;
+}
+.personal-info-ctn .header, .education-ctn .header, .skills-ctn .header {
   font-size: 20px;
   background-color: #002e58;
   padding: 10px 10px 10px 25px;
 }
 
-.personal-info-ctn .info {
-  margin-top: 5%;
+.personal-info-ctn .info, .education-ctn .info, .skills-ctn .info {
   padding-left: 25px;
   font-size: 13px;
   font-family: arimo;
@@ -91,12 +93,35 @@ body {
 
 .company-ctn {
   display: flex;
+  margin-top: 10px
 }
 
 .company-date {
-  width: 25%
+  width: 22%
 }
 
 .company-text {
-  width: 75%
+  width: 100%
+}
+
+.description ul, .responsibility ul {
+  margin-top: 0px;
+}
+
+.responsibility {
+  margin-top: -10px;
+}
+
+.education-ctn .info .degree {
+  padding-top: 15px;
+  font-size: initial;
+}
+
+.education-ctn .info .branch {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.education-ctn .info .college {
+  margin-top: 10px;
 }
