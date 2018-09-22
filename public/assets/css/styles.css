@@ -19,9 +19,10 @@ body {
 
 .sidebar {
   color: white;
-  width: 30%;
+  width: 35%;
   background-color: #003d74;
   display: flex;
+  font-family: arimo;
   flex-direction: column;
 }
 
@@ -42,4 +43,20 @@ body {
   background-color: #002e58;
   padding: 10px 10px 10px 25px;
 }
+
+.personal-info-ctn .info {
+  margin-top: 5%;
+  padding-left: 25px;
+  font-size: 15px;
+  font-family: arimo;
+  line-height: 22px;
+  font-weight: 800;
+}
+
+.personal-info-ctn .info .title {
+  padding-top: 15px;
+}
+
+.personal-info-ctn .info .context {
+  margin-top: 10px;
 }
